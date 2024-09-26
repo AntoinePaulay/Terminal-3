@@ -1,11 +1,7 @@
-antoine@antoine-VirtualBox:~/Bureau$ curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-100 60659  100 60659    0     0  25047      0  0:00:02  0:00:02 --:--:-- 25045
-antoine@antoine-VirtualBox:~/Bureau$ grep "France,2019,PHP" < wilders.csv | cat > php_france_2019.csv
-antoine@antoine-VirtualBox:~/Bureau$ grep "JavaScript" < wilders.csv | cat > javascript.csv
-antoine@antoine-VirtualBox:~/Bureau$ grep "Biarritz" < javascript.csv | cat > javascript_biarritz.csv
-antoine@antoine-VirtualBox:~/Bureau$ grep "Toulouse" < javascript.csv | cat > javascript_toulouse.csv
-antoine@antoine-VirtualBox:~/Bureau$ cat javascript_biarritz.csv javascript_toulouse.csv | cat > javascript_biarritz_toulouse.csv
-antoine@antoine-VirtualBox:~/Bureau$ history | tail > history.txt
-antoine@antoine-VirtualBox:~/Bureau$ 
+  199  curl https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv -o wilders.csv
+  200  grep "France,2019,PHP" < wilders.csv | cat > php_france_2019.csv
+  201  grep "JavaScript" < wilders.csv | cat > javascript.csv
+  202  grep "Biarritz" < javascript.csv | cat > javascript_biarritz.csv
+  203  grep "Toulouse" < javascript.csv | cat > javascript_toulouse.csv
+  204  cat javascript_biarritz.csv javascript_toulouse.csv | cat > javascript_biarritz_toulouse.csv
+  205  history | tail > history.txt
